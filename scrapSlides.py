@@ -6,7 +6,8 @@ import os
 
 # url_slides_bbb = "https://bbb2.centrale-marseille.fr/bigbluebutton/presentation/8683b52416ed6a1523a20c825650d513fe167030-1612873337346/8683b52416ed6a1523a20c825650d513fe167030-1612873337346/0c0fb75c9b49485c4a21634d165bdb517bec9660-1612873602910/svg/"
 #url_slides_bbb = "https://bbb4.centrale-marseille.fr/bigbluebutton/presentation/8d68fed661e8362aaa428bd0d55ab529b85f6cc3-1616136849092/8d68fed661e8362aaa428bd0d55ab529b85f6cc3-1616136849092/c909a2907a375a1ca13051fbab715756f3bf1a6d-1616136849259/svg/"
-url_slides_bbb = "https://bbb4.centrale-marseille.fr/bigbluebutton/presentation/6eb3f9a996681318e243a1ca44d0a4045ab72c03-1617000007834/6eb3f9a996681318e243a1ca44d0a4045ab72c03-1617000007834/e50b4945ebae759590ca57ff911974022eca7a6e-1617000060343/svg/"
+#url_slides_bbb = "https://bbb4.centrale-marseille.fr/bigbluebutton/presentation/6eb3f9a996681318e243a1ca44d0a4045ab72c03-1617000007834/6eb3f9a996681318e243a1ca44d0a4045ab72c03-1617000007834/e50b4945ebae759590ca57ff911974022eca7a6e-1617000060343/svg/"
+url_slides_bbb = "https://bbb1.centrale-marseille.fr/bigbluebutton/presentation/72a40bfaabf993f8314ef45ca5ba0d053dcacfd7-1618301407645/72a40bfaabf993f8314ef45ca5ba0d053dcacfd7-1618301407645/b7cee96775ef5eadb6991f601d09683c81021d53-1618301816466/svg/"
 nb_max = 50
 
 cookies = { }
