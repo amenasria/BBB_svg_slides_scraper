@@ -72,7 +72,7 @@
         <h4>Quelle url dois-je saisir ?</h4>
         <p>Vous devez saisir l'url qui fait référence à un svg lors d'une présentation BBB.</p>
         <h4>Où puis-je la trouver ?</h4>
-        <p>Lorsque vous êtes spectateur d'une présentation BBB, clic droit > Inspecter l'élement > Selectionner l'icone <i class="mouse pointer icon"></i> en haut à gauche de la console qui vient de s'ouvrir.<br/>Puis double-cliquez sur le lien pour le copier. Enfin collez là et effacez le numéro de la slide à la fin de l'url pour que l'url finisse en <b>.../svg/</b> .</p>
+        <p>Lorsque vous êtes spectateur d'une présentation BBB, clic droit > Inspecter l'élement > Selectionner l'icone <i class="mouse pointer icon"></i> en haut à gauche de la console qui vient de s'ouvrir.<br/> Cliquez sur l'image qui est en train d'être partagée, puis dans la console double-cliquez sur le lien correspondant pour le copier. Enfin collez là et effacez le numéro de la slide à la fin de l'url pour que l'url finisse en <b>.../svg/</b> .</p>
         <h4>Que puis-je faire avec le pdf que je télécharge ensuite ?</h4>
         <p>
             <b><u>Le garder pour vous</u></b>. En tant qu'élève de Centrale qui suivez les cours, vous avez accès aux documents que partagent les professeurs. Habituellement vous les enregistrez sous la forme de captures d'écran ce qui n'est franchement pas pratique.
