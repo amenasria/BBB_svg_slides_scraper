@@ -1,6 +1,4 @@
-import json
 import requests
-import os
 
 
 def scrap_slides(url_slides_bbb, temp_path):
