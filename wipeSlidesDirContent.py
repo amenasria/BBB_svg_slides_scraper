@@ -2,7 +2,7 @@ import os, shutil
 
 # Source : https://stackoverflow.com/questions/185936/how-to-delete-the-contents-of-a-folder
 
-folder = './slides'
+folder = './files'
 
 for filename in os.listdir(folder):
     file_path = os.path.join(folder, filename)
