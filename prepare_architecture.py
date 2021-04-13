@@ -8,9 +8,16 @@ def prepare_architecture():
 
     try:
         os.mkdir(path)
+        try:
+            os.mkdir(path+"/slides")
+            os.mkdir(path + "/files")
+        except OSError as e:
+            print("Creation of the directory %s failed" % path)
+            return False, ""
+        else:
+            print("Successfully created the directories in %s " % path)
+            return True, path
     except OSError as e:
         print("Creation of the directory %s failed" % path)
-        return False
-    else:
-        print("Successfully created the directory %s " % path)
-        return True
+        return False, ""
+

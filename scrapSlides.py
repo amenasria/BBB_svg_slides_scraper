@@ -20,7 +20,7 @@ def scrap_slides(url_slides_bbb, temp_path):
         url = url_slides_bbb + str(i)
         r = requests.get(url, cookies=cookies, headers=headers)
         if r.status_code == 200:
-            with open("slides/slide" + str(i) + ".svg", 'wb') as f:
+            with open(temp_path + "/slides/slide" + str(i) + ".svg", 'wb') as f:
                 f.write(r.content)
                 i += 1
         else:

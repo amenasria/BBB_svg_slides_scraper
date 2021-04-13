@@ -7,8 +7,8 @@ def slides_to_pdf(temp_path):
     for i in range(1, 31):
         try:
             print(i)
-            drawing = svg2rlg(f"slides/slide{i}.svg")
-            renderPDF.drawToFile(drawing, f"files/file{i}.pdf")
+            drawing = svg2rlg(f"{temp_path}/slides/slide{i}.svg")
+            renderPDF.drawToFile(drawing, f"{temp_path}/files/file{i}.pdf")
         except Exception as e:
             print(f"Slide {i} failed, error: ", e)
 
@@ -16,9 +16,9 @@ def slides_to_pdf(temp_path):
     for i in range(1, 31):
         try:
             print(i)
-            merger.append(f"files/file{i}.pdf")
+            merger.append(f"{temp_path}/files/file{i}.pdf")
         except Exception as e:
             print(f"File {i} failed, error: ", e)
 
-    merger.write("result.pdf")
+    merger.write(f"{temp_path}/result.pdf")
     merger.close()
