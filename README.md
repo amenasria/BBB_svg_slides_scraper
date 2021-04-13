@@ -12,6 +12,7 @@ Tout d'abord **clonez le répo**, puis rendez-vous dans le dossier du projet et 
 pip install -r requirements.txt
 ```
 
+## Lancement du script
 
 **Rendez vous dans le fichier main.py et remplacez le contenu de *url_slides_bbb***:
 
@@ -33,3 +34,4 @@ La ligne deviendra donc
 url_slides_bbb = "https://bbb1.centrale-marseille.fr/bigbluebutton/presentation/plein_de_chiffres_chelous/svg/"
 ```
 
+Enfin **récupérez le pdf final appelé result.pdf** que vous pourrez trouver dans le dernier dossier de la forme temp_*chiffres* créé.
