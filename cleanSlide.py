@@ -15,7 +15,7 @@ for i in range(1, nb_max):
             current_element.getparent().remove(current_element)
             print(current_element.attrib)
 
-        with open("slides/cleanslide" + str(i) +".svg", 'wb') as f:
+        with open("slides/slide" + str(i) +".svg", 'wb') as f:
             f.write(etree.tostring(svg))
     except:
         print(f"Ah, c'était la dernière slide ({i-1})")
