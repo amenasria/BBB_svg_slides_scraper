@@ -85,6 +85,7 @@
         <p>Python pour scraper les svg puis les combiner en un pdf. PHP en back avec un front en SemanticUI pour cette interface minimaliste.</p>
         <h4>Comment te remercier ? Comment faire pareil ?</h4>
         <p>Rejoignez le GInfo (mdrrr c'est la best asso no joke ahaha 😛)</p>
+        <div class="ui hidden divider" style="margin: 8em 0em 8em"></div>
     </div>
 </body>
 </html>
