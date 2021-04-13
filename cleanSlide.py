@@ -5,7 +5,7 @@ import lxml.etree as etree
 # Remove element in lxml : https://stackoverflow.com/questions/7981840/how-to-remove-an-element-in-lxml
 
 
-def clean_slides():
+def clean_slides(temp_path):
     nb_max = 100
 
     for i in range(1, nb_max):

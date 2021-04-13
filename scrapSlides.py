@@ -3,7 +3,7 @@ import requests
 import os
 
 
-def scrap_slides(url_slides_bbb):
+def scrap_slides(url_slides_bbb, temp_path):
     nb_max = 60
     cookies = {}
     headers = {"Host": "bbb2.centrale-marseille.fr",

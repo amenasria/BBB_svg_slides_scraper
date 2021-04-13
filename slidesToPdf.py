@@ -3,7 +3,7 @@ from reportlab.graphics import renderPDF
 from PyPDF2 import PdfFileMerger
 
 
-def slides_to_pdf():
+def slides_to_pdf(temp_path):
     for i in range(1, 31):
         try:
             print(i)
