@@ -15,12 +15,12 @@ def clean_slides(temp_path):
             for j in range(1, 16):  # Remove small icons at the bottom of the svg file
                 current_element = svg.findall(".//{http://www.w3.org/2000/svg}path")[-1]
                 current_element.getparent().remove(current_element)
-                print(current_element.attrib)
+                #print(current_element.attrib)
 
             with open(temp_path + "/slides/slide" + str(i) +".svg", 'wb') as f:
                 f.write(etree.tostring(svg))
         except:
-            print(f"Ah, c'était la dernière slide ({i-1})")
+            #print(f"Ah, c'était la dernière slide ({i-1})")
             break
 
 

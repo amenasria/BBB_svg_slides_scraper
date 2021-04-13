@@ -22,5 +22,5 @@ def scrap_slides(url_slides_bbb, temp_path):
                 f.write(r.content)
                 i += 1
         else:
-            print(f"Scrap des {i-1} slides effectué")
+            #print(f"Scrap des {i-1} slides effectué")
             break
