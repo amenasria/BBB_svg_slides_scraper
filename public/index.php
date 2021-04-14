@@ -12,9 +12,6 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     <script>
         $(document).ready(function() {
-            // $('#generation_button').click(function() {
-            //     $('#run_script_form').submit();
-            // });
             $('.ui.accordion').accordion();
 
 
@@ -23,7 +20,7 @@
                 document.getElementById("generation_button").classList.add("loading");
                 $.ajax({
                     type: 'post',
-                    url: 'run_script.php',
+                    url: '/public/run_script.php',
                     data: $(this).serialize(),
                     success: function (data) {
                         // document.getElementById("log_python").textContent= "Téléchargement prêt";
