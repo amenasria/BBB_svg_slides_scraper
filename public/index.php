@@ -20,7 +20,7 @@
                 document.getElementById("generation_button").classList.add("loading");
                 $.ajax({
                     type: 'post',
-                    url: '/public/run_script.php',
+                    url: 'run_script.php',
                     data: $(this).serialize(),
                     success: function (data) {
                         // document.getElementById("log_python").textContent= "Téléchargement prêt";
