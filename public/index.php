@@ -48,11 +48,21 @@
 
     <div class="ui container" style="margin-top: 3em;">
         <h1 style="font-size: 3em; text-align: center; font-weight: normal;">BBBScrapy</h1>
-        <div class="ui hidden divider" style="margin: 4em 0em 4em"></div>
+        <div class="ui hidden divider" style="margin: 2em 0em 2em"></div>
+        <div class="ui negative message">
+            <div class="header">
+                Problèmes de serveur temporaires
+            </div>
+            <p>J'ai un petit problème de dépendances sur le serveur, j'ai ouvert un ticket pour le CRI. Le site revient
+               très vite dès qu'ils m'auront répondu. Vous pouvez toujours utiliser ce service depuis le script
+               <a href="https://github.com/amenasria/BBB_svg_slides_scraper">ici</a>.
+            </p>
+        </div>
+        <div class="ui hidden divider" style="margin: 2em 0em 2em"></div>
         <form method="post" id="run_script_form">
             <div class="ui fluid action input">
                 <input type="text" id="url_bbb_svg" name="url_bbb_svg" placeholder="https://bbb1.centrale-marseille.fr/bigbluebutton/presentation/plein_de_chiffres_chelous/svg/">
-                <button class="ui teal right labeled icon button" id="generation_button">
+                <button class="ui teal right labeled icon button" id="generation_button" disabled>
                     <i class="bolt icon"></i>
                     Générer le pdf
                 </button>
