@@ -4,21 +4,29 @@ from PyPDF2 import PdfFileMerger
 
 
 def slides_to_pdf(temp_path):
-    for i in range(1, 31):
+    i, j = 1, 1
+    while True:
         try:
-            print(i)
+            #print(i)
             drawing = svg2rlg(f"{temp_path}/slides/slide{i}.svg")
             renderPDF.drawToFile(drawing, f"{temp_path}/files/file{i}.pdf")
+            i += 1
         except Exception as e:
-            print(f"Slide {i} failed, error: ", e)
+            #print(f"Slide {i} failed, error: ", e)
+            print("")
+            break
 
     merger = PdfFileMerger()
-    for i in range(1, 31):
+    while True:
         try:
-            print(i)
-            merger.append(f"{temp_path}/files/file{i}.pdf")
+            #print(i)
+            merger.append(f"{temp_path}/files/file{j}.pdf")
+            j += 1
         except Exception as e:
-            print(f"File {i} failed, error: ", e)
+            #print(f"File {i} failed, error: ", e)
+            print("")
+            break
 
     merger.write(f"{temp_path}/result.pdf")
     merger.close()
+
