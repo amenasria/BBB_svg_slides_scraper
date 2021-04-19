@@ -21,8 +21,8 @@ def main():
         #print("fini de cleaner")
         slides_to_pdf(temp_folder[1])
         #print("fini de pdfer")
-        # wipe_dir_content(temp_folder[1] + "/slides")
-        # wipe_dir_content(temp_folder[1] + "/files")
+        wipe_dir_content(temp_folder[1] + "/slides")
+        wipe_dir_content(temp_folder[1] + "/files")
         #print("bien delete les fichier temporaires")
         print(temp_folder[1]+"/result.pdf")
     else:
